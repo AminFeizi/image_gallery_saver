@@ -28,11 +28,11 @@ android {
     compileSdkVersion 35
     namespace "com.example.imagegallerysaver"
     compileOptions {
-        sourceCompatibility 17
-        targetCompatibility 17
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
     }
        kotlin {
-        jvmToolchain(17)
+        jvmToolchain(1.8)
     }
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
